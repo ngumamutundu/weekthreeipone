@@ -34,5 +34,8 @@ submitAnswer.addEventListener("click", function (event) {
     alert("You have scored: " + score +"%"+level);
 
     //$("#final_ans").text(" )
+
+
 })
+
 
