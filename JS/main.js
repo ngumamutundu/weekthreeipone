@@ -19,11 +19,11 @@ submitAnswer.addEventListener("click", function (event) {
     let level = "";
 
 
-    if (score > 80){
+    if (score >= 80){
         level += "Excellently Passed, you deserve a full body massage on my bill";
     }
 
-    else if(score >= 50 && score <= 80 ){
+    else if(score >= 50 && score < 80 ){
         level += "Fairly Passed";
     }
 
