@@ -1,5 +1,6 @@
-const submitAnswer = document.querySelector("#submit_ans")
+const submitAnswer = document.querySelector("#submit_ans");
 const quizAnswers = document.querySelectorAll(".ouranswers");
+
 let marks = 0;
 let total = 0;
 quizAnswers.forEach(function (jibu) {
@@ -15,5 +16,23 @@ quizAnswers.forEach(function (jibu) {
 //alert(marks)
 submitAnswer.addEventListener("click", function (event) {
     let score =(marks/total)*100;
-    alert("your score is:" + score +"%")
+    let level = "";
+
+
+    if (score > 80){
+        level += "Excellently Passed, you deserve a full body massage on my bill";
+    }
+
+    else if(score >= 50 && score <= 80 ){
+        level += "Fairly Passed";
+    }
+
+    else{
+        level += "Poor performance, Please retake test and see me in my office.";
+
+    }
+    alert("You have scored: " + score +"%"+level);
+
+    //$("#final_ans").text(" )
 })
+
