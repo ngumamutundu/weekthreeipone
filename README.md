@@ -1,8 +1,8 @@
-# Web application
-This project is about creating web application for checking Akan name.
+# Quiz Form
+This project is to access the students on what they have learned this week.
 By Pius Nguma Mutundu
 Description
-To build a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+To get evaluated students need to choose answer from multiple choices and upon submition they get a score on how they have performed.
 
 # Setup/Installation Requirements
 -Git clone https://github.com/ngumamutundu/weekthreeipone.git
