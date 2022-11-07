@@ -17,7 +17,7 @@ There are no known bugs on this project.
 # Technologies Used
 Languages used include HTML , CSS , JavaScript and bootstrap. I have used editor Visual Studio Code for creating the app and Git Bash terminal for coding.
 
-# ive link
+# Live link
 -https://ngumamutundu.github.io/weekthreeipone/
 
 # Support and contact details
