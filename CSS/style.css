@@ -56,3 +56,9 @@ h1{
   text-align: center;
   color: chartreuse;
 }
+
+.color{
+  column-width: 7cm;
+  color: darkcyan;
+}
+
