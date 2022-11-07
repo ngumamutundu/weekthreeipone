@@ -45,3 +45,14 @@ body {
       font-size: 63px;
     }
   }
+
+
+  img{
+    margin: 1px auto;
+    display: block;
+}
+
+h1{
+  text-align: center;
+  color: chartreuse;
+}
